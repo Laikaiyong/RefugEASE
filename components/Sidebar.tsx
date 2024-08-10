@@ -97,7 +97,6 @@ const Sidebar: React.FC = () => {
           {navItems.map((item) => (
             <li key={item.href} className="mb-4">
               <Link href={item.href} className="flex items-center text-gray-300 hover:text-white transition-colors duration-200">
-                <span className="mr-3">{item.icon}</span>
                 {item.label}
               </Link>
             </li>
