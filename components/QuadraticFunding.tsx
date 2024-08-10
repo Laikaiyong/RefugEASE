@@ -34,9 +34,9 @@ const QuadraticFunding: React.FC = () => {
   return (
     <div className=" bg-gray-100 py-1 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
-      <div class="p-6 bg-blue-200 rounded-lg shadow-md">
-  <h2 class="text-xl font-semibold mb-2">You are eligible to claim Refugee MicroFinance 2024 July project</h2>
-  <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Claim</button>
+      <div className="p-6 bg-blue-200 rounded-lg shadow-md">
+  <h2 className="text-xl font-semibold mb-2">You are eligible to claim Refugee MicroFinance 2024 July project</h2>
+  <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Claim</button>
 </div>
         <h1 className="text-3xl font-extrabold text-center text-gray-900 mb-8">Quadratic Funding Projects</h1>
         <div className="bg-white shadow overflow-hidden sm:rounded-md">
