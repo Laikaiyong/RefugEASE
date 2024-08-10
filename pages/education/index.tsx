@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import { useEffect } from "react";
-import Wallet from "../components/Wallet";
-import { useListen } from "../hooks/useListen";
-import { useMetamask } from "../hooks/useMetamask";
-import Sidebar from "../components/Sidebar";
-import RefugeeSupportInitiative from "../components/RFMain";
+import Wallet from "../../components/Wallet";
+import { useListen } from "../../hooks/useListen";
+import { useMetamask } from "../../hooks/useMetamask";
+import Sidebar from "../../components/Sidebar";
+import EducationPage from "../../components/Education";
 
-const Home: NextPage = () => {
+const Education: NextPage = () => {
   const { dispatch } = useMetamask();
   const listen = useListen();
 
@@ -39,9 +39,9 @@ const Home: NextPage = () => {
   return (
     <>
     <Sidebar />
-    <RefugeeSupportInitiative />
+    <EducationPage />
     </>
   );
 };
 
-export default Home;
+export default Education;
