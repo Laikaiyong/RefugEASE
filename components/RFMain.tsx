@@ -56,7 +56,7 @@ export default function Home() {
   )
 }
 
-function FeatureCard({ title, description, icon }) {
+function FeatureCard({ title, description, icon }: {title: string, description: string, icon: string}) {
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
       <div className="text-4xl mb-4">{icon}</div>
